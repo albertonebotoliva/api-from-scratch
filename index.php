@@ -34,6 +34,7 @@ function initializeEnvironment(){
   define( 'CONTROLLER_PATH',  PATH . '/controllers' );
   define( 'MODEL_PATH',       PATH . '/models' );
   define( 'LIB_PATH',         PATH . '/libs' );
+  define( 'BASE_URI',                '/deezer/');
   //Autoload the system.
   spl_autoload_register( 'system_autoload' );
 }

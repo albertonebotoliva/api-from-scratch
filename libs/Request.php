@@ -30,7 +30,7 @@ class Request{
   private $body;
 
   public function __construct(){
-    $baseUri = '/deezer/';
+    $baseUri = BASE_URI;
     $requestUri = $_SERVER['REQUEST_URI'];
 
     $dataUri = explode("/",str_replace($baseUri,"",$requestUri));
